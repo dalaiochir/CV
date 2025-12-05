@@ -12,7 +12,7 @@ export default function Projects() {
 
         <div className="project-card">
           <h2>Task Manager App</h2>
-          <p>CRUD бүхий Productivity app (React + Node).</p>
+          <p>CRUD бүхий Productivity App (React + Node).</p>
         </div>
 
         <div className="project-card">

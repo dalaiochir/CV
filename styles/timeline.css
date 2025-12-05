@@ -1,0 +1,25 @@
+.exp-container {
+  padding: 50px;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 25px;
+  border-left: 3px solid #4e72ff;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.timeline-dot {
+  width: 16px;
+  height: 16px;
+  background: #4e72ff;
+  border-radius: 50%;
+  position: absolute;
+  left: -32px;
+  top: 4px;
+}

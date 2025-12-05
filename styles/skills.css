@@ -1,0 +1,55 @@
+.skills-container {
+  padding: 50px;
+  max-width: 800px;
+}
+
+.skill-bar {
+  margin-bottom: 20px;
+}
+
+.bar {
+  width: 100%;
+  background: #e5e7eb;
+  height: 10px;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+.progress {
+  height: 10px;
+  background: #4e72ff;
+  border-radius: 8px;
+}
+
+.badges {
+  margin-top: 30px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #4e72ff;
+  color: white;
+  border-radius: 6px;
+  margin: 5px;
+}
+
+.skill-bar {
+  background: #e5e5e5;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-progress {
+  height: 100%;
+  width: 0;
+  background: #4f46e5;
+  border-radius: 10px;
+  transition: width 1.2s ease-out;
+}
+
+.skill-animate {
+  width: var(--value);
+}

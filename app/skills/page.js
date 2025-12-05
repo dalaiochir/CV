@@ -3,7 +3,6 @@ export default function Skills() {
     <div className="skills-container">
       <h1 className="title">My Skills</h1>
 
-      {/* Progress Bars */}
       <div className="skill-bar">
         <span>JavaScript</span>
         <div className="bar"><div className="progress" style={{ width: "90%" }}></div></div>
@@ -19,7 +18,6 @@ export default function Skills() {
         <div className="bar"><div className="progress" style={{ width: "80%" }}></div></div>
       </div>
 
-      {/* Badges */}
       <div className="badges">
         <span className="badge">React</span>
         <span className="badge">Express</span>

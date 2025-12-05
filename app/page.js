@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <section className="hero">
       <div className="hero-content">
-        <h1 className="hero-title">Б. ДалайОчир</h1>
+        <h1 className="hero-title">Б. Далай-Очир</h1>
         <h2 className="hero-subtitle">Full-Stack Developer & CS Student</h2>
 
         <p className="hero-text">
@@ -15,7 +15,7 @@ export default function Home() {
       </div>
 
       <div className="hero-image-box">
-        <img src="/profile.jpg" alt="Profile" className="hero-image" />
+        <img src="/profile.png" alt="Profile" className="hero-image" />
       </div>
     </section>
   );
