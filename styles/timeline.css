@@ -1,25 +1,40 @@
-.exp-container {
-  padding: 50px;
-}
-
 .timeline {
-  position: relative;
-  margin-left: 25px;
-  border-left: 3px solid #4e72ff;
+  border-left: 3px solid #4f46e5;
   padding-left: 20px;
+  margin-top: 20px;
 }
 
 .timeline-item {
-  margin-bottom: 35px;
-  position: relative;
+  margin-bottom: 25px;
+  opacity: 0;
+  transform: translateX(30px);
+  animation: timelineFade 0.7s ease forwards;
 }
 
-.timeline-dot {
-  width: 16px;
-  height: 16px;
-  background: #4e72ff;
-  border-radius: 50%;
-  position: absolute;
-  left: -32px;
-  top: 4px;
+@keyframes timelineFade {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.timeline-text {
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    transform: translateY(20px);
+  }
 }

@@ -1,25 +1,25 @@
+import "../../styles/globals.css";
+
 export default function Projects() {
   return (
-    <div className="projects-container">
-      <h1 className="title">My Projects</h1>
+    <div style={{ padding: "40px" }} className="mobile-fade-slide">
+      <h1 style={{ marginBottom: "25px" }}>Projects</h1>
 
-      <div className="project-grid">
-
+      <div style={{ display: "grid", gap: "20px" }}>
         <div className="project-card">
           <h2>Portfolio Website</h2>
-          <p>Next.js + CSS ашиглан бүтээгдсэн хувийн CV сайт.</p>
+          <p>Next.js ашиглан хийсэн хувийн веб.</p>
         </div>
 
         <div className="project-card">
-          <h2>Task Manager App</h2>
-          <p>CRUD бүхий Productivity App (React + Node).</p>
+          <h2>Todo App</h2>
+          <p>React state management туршилтын проект.</p>
         </div>
 
         <div className="project-card">
-          <h2>Game Stats Tracker</h2>
-          <p>API ашиглан тоглоомын статистик уншдаг сайт.</p>
+          <h2>Game Dashboard</h2>
+          <p>API data fetch + UI дизайн.</p>
         </div>
-
       </div>
     </div>
   );
